@@ -355,7 +355,7 @@ section.portfolio {
 }
 
 .portfolio-grid {
-  background-color: #e7d7c1;
+  background-color: #ffeedb;
   display: flex;
   flex-direction: column;
   /* grid-template-columns: repeat(2, 1fr); */
@@ -363,8 +363,8 @@ section.portfolio {
   align-items: center;
 }
 .portfolio-item {
-  background-color: #e7d7c1;
-  width: 100%;
+  background-color: #ffeedb;
+  width: 90%;
   max-width: auto;
   /* height: 200px; */
   border-radius: 10px;
