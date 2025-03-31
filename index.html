@@ -12,21 +12,22 @@
   </head>
   <body>
     <header>
-      <h1>UX/UI design - Petra Bobková</h1>
+      <h1 class="header">UX/UI design - Petra Bobková</h1>
       <nav>
         <ul>
           <li><a href="#about">O mně</a></li>
           <li><a href="#process">Postupy</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Kontakt</a></li>
+        
         </ul>
       </nav>
       <div class="watcher"></div>
     </header>
 
-    <section class="about">
-      <h2>Něco o mně</h2>
-      <!-- <form> -->
+    <section id="about" class="about">
+      <h1>Něco o mně</h1>
+      <form class="about">
       <div class="about-container"> 
       
           <img src="Selfie.jpg" alt="Petra Bobková" width="150" height="auto" class="profile-img" >
@@ -48,72 +49,75 @@
     
     <p> 📩 Hledáte UX/UI designéra pro svůj projekt?</p>
     <p> Neváhejte mě kontaktovat a společně vdechneme vašemu webu nový život! 🚀</p> 
+    <a href="CV.pdf" target="_blank">
+    <button type="button">
+      <nav class="Kontakt">
+        <span class="kruh">
+          <span class="ikona">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+              <path d="M150 550h775v100H150z" class="linka" />
+              <path
+                d="m710 935-70-70 265-265-265-265 70-70 335 335z"
+                class="sipka"
+              />
+            </svg>
+          </span>
+        </span>
+        <span class="text">Curriculum Vitae</span>
+      </nav>
+    </button>  
+  </a>  
+  </div>
       </div>
-      </div>
-        <button type="">
-          <nav class="Kontakt">
-            <span class="kruh">
-              <span class="ikona">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
-                  <path d="M150 550h775v100H150z" class="linka" />
-                  <path
-                    d="m710 935-70-70 265-265-265-265 70-70 335 335z"
-                    class="sipka"
-                  />
-                </svg>
-              </span>
-            </span>
-            <span class="text">Zkontaktuj mne</span>
-          </nav>
-        </button>
-      <!-- </form> -->
+
+      </form>
     </section>
 
-    <section class="process">
-      <h2>Proces tvoření</h2>
+    <section id="process" class="process">
+      <h1>Proces tvoření</h1>
       <form class="process">
         <div class="process-grid">
           <div class="process-container">
             <div class="process-item">
               <div class="icon-text">
                 <img src="dotaznik.png" alt="Dotazník" class="icon">
-                <span>Dotazník</span>
+                <span class="bold">Dotazník </span><span>- Sběr informací o potřebách, cílech a preferencích klienta.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="selekce.png" alt="Selekce" class="icon">
-                <span>Selekce</span>
+                <span class="bold">Selekce </span><span>- Výběr nejlepších nápadů a konceptů pro další rozpracování.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="moodboard.png" alt="Moodboard" class="icon">
-                <span>Moodboard</span>
+                <span class="bold">Moodboard </span><span>- Vizuální inspirace, barvy, styly a atmosféra projektu.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="wireframe.png" alt="Wireframe" class="icon">
-                <span>Wireframe</span>
+                <span class="bold">Wireframe </span><span>- Struktura a rozvržení prvků bez grafických detailů.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="prototyp.png" alt="Prototyp" class="icon">
-                <span>Prototyp</span>
+                <span class="bold">Prototyp </span><span>- Interaktivní model designu pro testování a úpravy.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="presentation.png" alt="Prezentace" class="icon">
-                <span>Prezentace</span>
+                <span class="bold">Prezentace </span><span>-  Představení návrhu klientovi a sběr zpětné vazby.</span>
               </div>
             </div>
             <div class="process-item">
               <div class="icon-text">
                 <img src="flag.png" alt="Hotový design" class="icon">
-                <span>Hotový design</span>
+                <span class="bold">Hotový design</span><span>- Finální verze připravená k použití nebo implementaci.</span>
               </div>
             </div>
           </div>
@@ -124,14 +128,34 @@
     
 
 
-    <section class="portfolio">
-      <h2>Portfolio</h2>
+    <section id="portfolio" class="portfolio">
+      <h1>Portfolio</h1>
       <form>
         <div class="portfolio-grid">
           <div class="portfolio-item">
             <h3>Vizitka</h3>
             <img src="Vizitka.png" class="vizitka" alt="vizitka" />
           </div>
+
+          <div class="portfolio-item">
+            <h3>Wireframe</h3>
+            <img src="Wireframe figma.png" alt="wireframe navržený ve figmě">
+          </div>
+
+          <div class="portfolio-item">
+            <h3>Prototyp</h3>
+            <img src="Prototyp figma.png" alt="">
+          </div>
+
+          <div class="portfolio-item">
+            <h3>Preloader</h3>
+            <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/vXwFAPY2rK62BWSOTLgpWE/Preloader?page-id=0%3A1&node-id=1-15&starting-point-node-id=1%3A2&embed-host=share" allowfullscreen></iframe></div>
+
+
+            <div class="portfolio-item">
+              <h3>Interaktivní animace</h3>
+              <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/KS5mLdX3Au30D3j3nJm4MS/Untitled?page-id=0%3A1&node-id=1-63&p=f&viewport=175%2C-50%2C0.34&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A21&embed-host=share" allowfullscreen></iframe></div>
+
 
           <div class="portfolio-item">
             <h3>Aplikace na rezervaci letenek</h3>
@@ -142,14 +166,16 @@
             />
           </div>
 
-          <div class="portfolio-item"></div>
-          <div class="portfolio-item"></div>
+          
+          <div class="portfolio-item">
+            <img src="" alt="">
+          </div>
         </div>
       </form>
     </section>
 
     <section id="contact" >
-      <h2>Kontaktujte mě</h2>
+      <h1>Kontaktujte mě</h1>
       <form class="napis">
         <div class="form-group">
           <label for="name">Vaše jméno</label>
@@ -171,51 +197,42 @@
 
     <footer>
       <div class="graphic-left">
-        <div class="bar pink"></div>
+        <div class="bar red"></div>
+        <div class="bar orange"></div>
         <div class="bar yellow"></div>
-        <div class="bar green"></div>
-        <div class="bar blue"></div>
-        <div class="bar purple"></div>
+        <div class="bar darkblue"></div>
+        <div class="bar lightblue"></div>
       </div>
 
       <div class="graphic-right">
-        <div class="bar purple"></div>
-        <div class="bar blue"></div>
-        <div class="bar green"></div>
+        <div class="bar lightblue"></div>
+        <div class="bar darkblue"></div>
         <div class="bar yellow"></div>
-        <div class="bar pink"></div>
+        <div class="bar orange"></div>
+        <div class="bar red"></div>
       </div>
 
       <div class="social-icons">
         <a
           href="#"
-          onclick="window.open('https://www.instagram.com/petulina_b/', '_blank') "
-        >
-          <img src="instagram.png" alt="Instagram"
-        /></a>
+          onclick="window.open('https://www.instagram.com/petulina_b/', '_blank') ">
+          <img src="instagram.png" alt="Instagram" class="hover-effect"/></a>
         <a
           href="#"
           onclick="window.open('https://www.linkedin.com/in/petra-bobkov%C3%A1-47aa69185/', '_blank') "
         >
-          <img src="linkedin.png" alt="LinkedIn"
+          <img src="linkedin.png" alt="LinkedIn" class="hover-effect"
         /></a>
 
         <a
           href="#"
           onclick="window.open('https://www.messenger.com/t/1242163463', '_blank') "
-          ><img src="messenger.png" alt="Messenger"
-        /></a>
-      
-          <!-- <a href="#" -->
+          ><img src="messenger.png" alt="Messenger" class="hover-effect"
+        /></a>       
           <img src="whatsapp.png" alt="WhatsApp" /> +420 775 653 073
-          <!-- </a> -->
           <img src="gmail.png" alt="Gmail" /> petra.bobkova13@gmail.com
-      
-      </div>
-      <p>
-        <!-- Kontakt: Instagram | LinkedIn | 775 653 073 | Messenger |
-        petra.bobkova13@gmail.com -->
-        <p></p><p>&copy; 2025 Petra Bobková</p>
+            </div>
+        <p>&copy; 2025 Petra Bobková</p>
       </p>
     </footer>
   </body>
