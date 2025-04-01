@@ -96,7 +96,7 @@ section.about {
 }
 
 .profile-img {
-  gap: 15px;
+ padding: 10px;
   width: 35%;
   height: 35%;
   object-fit: cover; /* aby se obrázek přizpůsobil bez deformace */
