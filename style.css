@@ -13,7 +13,6 @@ h1 {
   color: #003049;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 h2 {
@@ -271,7 +270,7 @@ form.process {
   background-color: #ffecd6;
 
   padding: 20px;
-  margin: 10px auto;
+  margin: 20px auto;
   animation: objeveni-se linear forwards;
   animation-timeline: view(5vh 20vh);
   width: 100%;
@@ -354,6 +353,7 @@ section.portfolio {
   flex-direction: column;
   max-width: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* grid-template-columns: repeat(2, 1fr); */
   gap: 20px;
   align-items: center;
   border-radius: 8px;
@@ -362,8 +362,13 @@ section.portfolio {
   background-color: #ffeedb;
   width: 90%;
   max-width: auto;
+  /* height: 200px; */
   border-radius: 10px;
   padding: 20px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
   text-align: center;
 }
 
@@ -376,15 +381,16 @@ section.portfolio {
 
 form {
   padding: 20px;
-  margin: 10px;
-  margin-top:0;
+  margin: 20px auto;
+
   animation: objeveni-se linear forwards;
   animation-timeline: view(5vh 20vh);
   width: 100%;
   scale: 0.9;
   opacity: 0.6;
   border-radius: 8px;
-  
+  /* max-width: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -409,7 +415,7 @@ form.napis {
   background-color: #e4aa8c;
   opacity: 30%;
   padding: 20px;
-  margin: 10px;
+  margin: 20px auto;
   border-radius: 8px;
   max-width: 800px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
