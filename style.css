@@ -353,7 +353,6 @@ section.portfolio {
   flex-direction: column;
   max-width: auto;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  /* grid-template-columns: repeat(2, 1fr); */
   gap: 20px;
   align-items: center;
   border-radius: 8px;
@@ -362,13 +361,8 @@ section.portfolio {
   background-color: #ffeedb;
   width: 90%;
   max-width: auto;
-  /* height: 200px; */
   border-radius: 10px;
   padding: 20px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   text-align: center;
 }
 
@@ -382,15 +376,13 @@ section.portfolio {
 form {
   padding: 20px;
   margin: 20px auto;
-
   animation: objeveni-se linear forwards;
   animation-timeline: view(5vh 20vh);
   width: 100%;
   scale: 0.9;
   opacity: 0.6;
   border-radius: 8px;
-  /* max-width: auto;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
   gap: 15px;
